@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bitmath.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bitreader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bitwriter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="crc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fixed.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="float.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="format.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lpc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata_iterators.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata_object.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_decoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_encoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_encoder_framing.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="window.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lpc_intrin_avx2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lpc_intrin_sse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lpc_intrin_sse2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lpc_intrin_sse41.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_encoder_intrin_avx2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_encoder_intrin_sse2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_encoder_intrin_ssse3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fixed_intrin_sse2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fixed_intrin_ssse3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="win_utf8_io.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="private\bitreader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\bitwriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\cpu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\crc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\fixed.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\float.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\format.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\lpc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\metadata.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\stream_encoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\stream_encoder_framing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\window.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\all.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private\bitmath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
